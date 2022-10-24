@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>基础组件 | 前端知识库</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/logo.jpg">
+    <meta name="description" content="开发文档">
+    
+    <link rel="preload" href="/assets/css/0.styles.03f3f677.css" as="style"><link rel="preload" href="/assets/js/app.c2174810.js" as="script"><link rel="preload" href="/assets/js/2.e3ff2de6.js" as="script"><link rel="preload" href="/assets/js/6.b4d2fd35.js" as="script"><link rel="prefetch" href="/assets/js/10.f95877e7.js"><link rel="prefetch" href="/assets/js/11.1da19e13.js"><link rel="prefetch" href="/assets/js/12.8e0fade3.js"><link rel="prefetch" href="/assets/js/13.f7441812.js"><link rel="prefetch" href="/assets/js/14.98fe9992.js"><link rel="prefetch" href="/assets/js/15.25f2eb33.js"><link rel="prefetch" href="/assets/js/16.0ed21504.js"><link rel="prefetch" href="/assets/js/17.6470e417.js"><link rel="prefetch" href="/assets/js/18.7392ac46.js"><link rel="prefetch" href="/assets/js/19.33d5ade2.js"><link rel="prefetch" href="/assets/js/3.b47735bb.js"><link rel="prefetch" href="/assets/js/4.25aa17dc.js"><link rel="prefetch" href="/assets/js/5.f24735e2.js"><link rel="prefetch" href="/assets/js/7.e82134b7.js"><link rel="prefetch" href="/assets/js/8.b5a17166.js"><link rel="prefetch" href="/assets/js/9.53f2d09e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.03f3f677.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar.jpg" alt="前端知识库" class="logo"> <span class="site-name can-hide">前端知识库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发规范" class="dropdown-title"><span class="title">开发规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="开发规范" class="mobile-dropdown-title"><span class="title">开发规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/standard/overview.html" class="nav-link">
+  概述
+</a></li><li class="dropdown-item"><!----> <a href="/views/standard/javascript.html" class="nav-link">
+  javascript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="组件" class="dropdown-title"><span class="title">组件</span> <span class="arrow down"></span></button> <button type="button" aria-label="组件" class="mobile-dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/components/base.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/views/components/business.html" class="nav-link">
+  业务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目文档" class="dropdown-title"><span class="title">项目文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目文档" class="mobile-dropdown-title"><span class="title">项目文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/guide/introduce.html" class="nav-link">
+  项目介绍
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/micro.html" class="nav-link">
+  微前端
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/subapp.html" class="nav-link">
+  子应用文档
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/record.html" class="nav-link">
+  踩坑记录
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/tools.html" class="nav-link">
+  工具
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笑忘书" class="dropdown-title"><span class="title">笑忘书</span> <span class="arrow down"></span></button> <button type="button" aria-label="笑忘书" class="mobile-dropdown-title"><span class="title">笑忘书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/articles/generator.html" class="nav-link">
+  从脚手架开始
+</a></li><li class="dropdown-item"><!----> <a href="/views/articles/workflow.html" class="nav-link">
+  jenkins工作流
+</a></li><li class="dropdown-item"><!----> <a href="/views/articles/dependencies.html" class="nav-link">
+  项目之间共享依赖
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发规范" class="dropdown-title"><span class="title">开发规范</span> <span class="arrow down"></span></button> <button type="button" aria-label="开发规范" class="mobile-dropdown-title"><span class="title">开发规范</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/standard/overview.html" class="nav-link">
+  概述
+</a></li><li class="dropdown-item"><!----> <a href="/views/standard/javascript.html" class="nav-link">
+  javascript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="组件" class="dropdown-title"><span class="title">组件</span> <span class="arrow down"></span></button> <button type="button" aria-label="组件" class="mobile-dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/components/base.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/views/components/business.html" class="nav-link">
+  业务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目文档" class="dropdown-title"><span class="title">项目文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目文档" class="mobile-dropdown-title"><span class="title">项目文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/guide/introduce.html" class="nav-link">
+  项目介绍
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/micro.html" class="nav-link">
+  微前端
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/subapp.html" class="nav-link">
+  子应用文档
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/record.html" class="nav-link">
+  踩坑记录
+</a></li><li class="dropdown-item"><!----> <a href="/views/guide/tools.html" class="nav-link">
+  工具
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笑忘书" class="dropdown-title"><span class="title">笑忘书</span> <span class="arrow down"></span></button> <button type="button" aria-label="笑忘书" class="mobile-dropdown-title"><span class="title">笑忘书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/views/articles/generator.html" class="nav-link">
+  从脚手架开始
+</a></li><li class="dropdown-item"><!----> <a href="/views/articles/workflow.html" class="nav-link">
+  jenkins工作流
+</a></li><li class="dropdown-item"><!----> <a href="/views/articles/dependencies.html" class="nav-link">
+  项目之间共享依赖
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基础组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/components/base.html#富文本编辑器" class="sidebar-link">富文本编辑器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/components/base.html#安装插件" class="sidebar-link">安装插件</a></li><li class="sidebar-sub-header"><a href="/views/components/base.html#代码引入" class="sidebar-link">代码引入</a></li><li class="sidebar-sub-header"><a href="/views/components/base.html#页面引入" class="sidebar-link">页面引入</a></li><li class="sidebar-sub-header"><a href="/views/components/base.html#效果展示" class="sidebar-link">效果展示</a></li></ul></li><li><a href="/views/components/base.html#代码编辑器" class="sidebar-link">代码编辑器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/components/base.html#安装插件-2" class="sidebar-link">安装插件</a></li><li class="sidebar-sub-header"><a href="/views/components/base.html#重要配置" class="sidebar-link">重要配置</a></li><li class="sidebar-sub-header"><a href="/views/components/base.html#代码引入-2" class="sidebar-link">代码引入</a></li><li class="sidebar-sub-header"><a href="/views/components/base.html#页面引入-2" class="sidebar-link">页面引入</a></li><li class="sidebar-sub-header"><a href="/views/components/base.html#效果展示-2" class="sidebar-link">效果展示</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="基础组件"><a href="#基础组件" class="header-anchor">#</a> 基础组件</h1> <div class="custom-block tip"><p class="custom-block-title">简介</p> <p>基础组件的相关安装与配置</p></div> <h2 id="富文本编辑器"><a href="#富文本编辑器" class="header-anchor">#</a> 富文本编辑器</h2> <p>项目的富文本编辑器使用的是 vue3-kind-editor</p> <h3 id="安装插件"><a href="#安装插件" class="header-anchor">#</a> 安装插件</h3> <div class="language-ts extra-class"><pre class="language-ts"><code>npm i <span class="token decorator"><span class="token at operator">@</span><span class="token function">zhj</span></span><span class="token operator">-</span>target<span class="token operator">/</span>vue3<span class="token operator">-</span>kind<span class="token operator">-</span>editor
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">提示</p> <p>vue3-kind-editor 在版本 0.1.2 之后，本地上传的图片是存的 base64</p></div> <h3 id="代码引入"><a href="#代码引入" class="header-anchor">#</a> 代码引入</h3> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// @ts-expect-error</span>
+<span class="token keyword">import</span> Vue3KindEditor <span class="token keyword">from</span> <span class="token string">'@zhj-target/vue3-kind-editor'</span>
+<span class="token comment">//富文本相关</span>
+<span class="token keyword">const</span> state <span class="token operator">=</span> <span class="token function">reactive</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  editorText<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="页面引入"><a href="#页面引入" class="header-anchor">#</a> 页面引入</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>vue3-kind-editor</span>
+  <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>editor_id<span class="token punctuation">&quot;</span></span>
+  <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>500px<span class="token punctuation">&quot;</span></span>
+  <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>100%<span class="token punctuation">&quot;</span></span>
+  <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>state.editorText<span class="token punctuation">&quot;</span></span>
+  <span class="token attr-name">:loadStyleMode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span>
+<span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>vue3-kind-editor</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="效果展示"><a href="#效果展示" class="header-anchor">#</a> 效果展示</h3> <p><img src="/assets/img/editor3.b3c2965d.png" alt="An image"></p> <h2 id="代码编辑器"><a href="#代码编辑器" class="header-anchor">#</a> 代码编辑器</h2> <p>项目的代码编辑器使用的是 monaco-editor，类似 vscode</p> <h3 id="安装插件-2"><a href="#安装插件-2" class="header-anchor">#</a> 安装插件</h3> <div class="language-ts extra-class"><pre class="language-ts"><code>npm install monaco<span class="token operator">-</span>editor<span class="token decorator"><span class="token at operator">@</span><span class="token function">0</span></span><span class="token number">.30</span><span class="token number">.1</span>
+npm install monaco<span class="token operator">-</span>editor<span class="token operator">-</span>webpack<span class="token operator">-</span>plugin<span class="token decorator"><span class="token at operator">@</span><span class="token function">6</span></span><span class="token number">.0</span><span class="token number">.0</span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">注意</p> <p>笔者尝试过几个版本，除了这两个搭配外，都出现了报错的情况</p></div> <h3 id="重要配置"><a href="#重要配置" class="header-anchor">#</a> 重要配置</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// vue.config.js</span>
+<span class="token keyword">const</span> MonacoWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'monaco-editor-webpack-plugin'</span><span class="token punctuation">)</span><span class="token comment">//-----&gt;此处配置</span>
+<span class="token function">configureWebpack</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">resolve</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">alias</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">'@'</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token string-property property">'*'</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">Assets</span><span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'src/assets'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">library</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">-[name]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+      <span class="token literal-property property">libraryTarget</span><span class="token operator">:</span> <span class="token string">'umd'</span><span class="token punctuation">,</span> <span class="token comment">// 把微应用打包成 umd 库格式</span>
+      <span class="token literal-property property">jsonpFunction</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">webpackJsonp_</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">module</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">rules</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">test</span><span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.(json5?|ya?ml)$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span> <span class="token comment">// target json, json5, yaml and yml files</span>
+          <span class="token literal-property property">loader</span><span class="token operator">:</span> <span class="token string">'@intlify/vue-i18n-loader'</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">include</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token comment">// Use `Rule.include` to specify the files of locale messages to be pre-compiled</span>
+            path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'src/lang'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token keyword">new</span> <span class="token class-name">WebpackBar</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        <span class="token literal-property property">name</span><span class="token operator">:</span> title<span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token keyword">new</span> <span class="token class-name">MonacoWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">//-----&gt;此处配置</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div><h3 id="代码引入-2"><a href="#代码引入-2" class="header-anchor">#</a> 代码引入</h3> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">// 引用组件</span>
+<span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> monaco <span class="token keyword">from</span> <span class="token string">'monaco-editor'</span>
+<span class="token comment">//代码编辑的</span>
+<span class="token keyword">const</span> editorRef<span class="token operator">:</span> <span class="token builtin">any</span> <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> <span class="token function-variable function">initEditor</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 初始化编辑器，确保dom已经渲染</span>
+  editorRef<span class="token punctuation">.</span>value <span class="token operator">=</span> monaco<span class="token punctuation">.</span>editor<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'codeEditBox'</span><span class="token punctuation">)</span><span class="token operator">!</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    value<span class="token operator">:</span> state<span class="token punctuation">.</span>form<span class="token punctuation">.</span>content<span class="token punctuation">,</span> <span class="token comment">//编辑器初始显示文字---&gt;state.form.content 这个是输入或者后端传过来的值</span>
+    language<span class="token operator">:</span> <span class="token string">'html'</span><span class="token punctuation">,</span> <span class="token comment">//此处使用的python，其他语言支持自行查阅demo</span>
+    theme<span class="token operator">:</span> <span class="token string">'vs-dark'</span><span class="token punctuation">,</span> <span class="token comment">//官方自带三种主题vs, hc-black, or vs-dark</span>
+    selectOnLineNumbers<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//显示行号</span>
+    roundedSelection<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    readOnly<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 只读</span>
+    cursorStyle<span class="token operator">:</span> <span class="token string">'line'</span><span class="token punctuation">,</span> <span class="token comment">//光标样式</span>
+    automaticLayout<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//自动布局</span>
+    glyphMargin<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//字形边缘</span>
+    useTabStops<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    fontSize<span class="token operator">:</span> <span class="token number">15</span><span class="token punctuation">,</span> <span class="token comment">//字体大小</span>
+    <span class="token comment">// autoIndent: true, //自动布局</span>
+    quickSuggestionsDelay<span class="token operator">:</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token comment">//代码提示延时</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token comment">// 监听值的变化</span>
+  editorRef<span class="token punctuation">.</span>value<span class="token punctuation">.</span><span class="token function">onDidChangeModelContent</span><span class="token punctuation">(</span><span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>val<span class="token punctuation">.</span>changes<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>text<span class="token punctuation">)</span>
+    <span class="token comment">// state.form.content = val.changes[0].text;</span>
+    state<span class="token punctuation">.</span>form<span class="token punctuation">.</span>content <span class="token operator">=</span> <span class="token function">getVal</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 获得代码编辑器的值</span>
+<span class="token keyword">const</span> <span class="token function-variable function">getVal</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">toRaw</span><span class="token punctuation">(</span>editorRef<span class="token punctuation">.</span>value<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getValue</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">//获取编辑器中的文本------&gt;toRaw是element-plus的方法</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="页面引入-2"><a href="#页面引入-2" class="header-anchor">#</a> 页面引入</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>codeEditBox<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="效果展示-2"><a href="#效果展示-2" class="header-anchor">#</a> 效果展示</h3> <p><img src="/assets/img/editor2.4a42dfa6.png" alt="An image"></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">last Update:</span> <span class="time">7/29/2022, 3:12:49 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c2174810.js" defer></script><script src="/assets/js/2.e3ff2de6.js" defer></script><script src="/assets/js/6.b4d2fd35.js" defer></script>
+  </body>
+</html>
